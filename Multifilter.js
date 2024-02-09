@@ -138,6 +138,7 @@ const handleFilterChange = async (filters) => {
 
     // Update filteredData with the API response
     setFilteredData(result);
+    
   } catch (error) {
     console.error('Error fetching data:', error);
   }
@@ -149,5 +150,8 @@ In this example:
 The URLSearchParams is used to convert the filter object into a query string.
 The fetch function is used to make a GET request to the API endpoint with the query parameters.
 If the response is successful (HTTP status code 200), it parses the JSON response and updates the filteredData state.
+
+  –----------------
+Navigation with width 1568px and height 104px. Navigation have global navigation and subnvaigtaion . Global navigation width 1568px and height 56px with justifty space between and blend luminosity and background color black. Global navigation have 3 elements logo with name ,serachbar with icon and actions with icons bookmarks, notification,user and apps. Sub-Navigation width 1568px and height 48px top 56px and blend luminosity with background color #FFFFFF. Sub Navigation have 5 menu items in horizontal navbar with link text with bar underline with width 117px and height 2 px every menu items when we click on that
 Make sure to replace the apiUrl with the actual endpoint of your API. Additionally, adjust the error handling and parsing logic based on your API's response format.
 
